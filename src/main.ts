@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import "@/assets/css/main.css"
-import TaskManager from './TaskManagerApp.vue'
+// import TaskManager from './TaskManagerApp.vue'
+import StudentScoreTracking from './StudentScoreTracking.vue'
 
-createApp(TaskManager).mount('#app')
+createApp(StudentScoreTracking).mount('#app')
